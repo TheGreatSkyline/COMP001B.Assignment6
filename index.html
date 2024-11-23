@@ -50,7 +50,7 @@
 			<!-- Bootstrap creates a row for the main content that spans 12 columns -->
 			<nav class="col-3">
 				<!-- Bootstrap creates a column for the navigation content that spans 1/4 of the row and it spans 3 columns -->
-				<ul class="list-unstyled">
+				<ul style="text-align: center; list-style-type: none; margin-top: 6%;">
 					<!-- Creates an unordered list with no bullet points -->
 					<li>
 						<!-- Creates a list item -->
@@ -347,7 +347,7 @@
 						</li>
 						<!-- This is the end of the list item  -->
 						<!-- The third list item is a paragraph -->
-						<li>
+			 			<li>
 							<!-- The text of the paragraph is a description of the cause of death of the inventor -->
 							<p>
 								Jimi Heselden, a British entrepreneur who died in 2010 from injuries apparently sustained
@@ -363,7 +363,8 @@
 			</main>
 			<!-- This is the end of the main section -->
 			<!-- This is the aside section of the document -->
-			<aside>
+			<aside class="col-3">
+				<!-- Bootstrap creates a column for the aside section that spans 3 columns -->
 				<!-- The heading of the aside section is a level 2 heading -->
 				<h2>
 					Additional Notes
@@ -380,8 +381,9 @@
 				</p>
 				<!-- This is the end of the paragraph -->
 				<!-- The text of the aside section is a list -->
-				<!-- The list is unordered -->
-				<ul>
+				<div  style="font-size: medium;">
+					<!-- The list is unordered -->
+				<ul class="list-unstyled">
 					<!-- The first list item is a link to Wikipedia about dummy causes of death -->
 					<li>
 						<!-- The text of the link is the name of the cause of death -->
@@ -394,7 +396,7 @@
 					<!-- The second list item is a link to Wikipedia about list of entertainers who died during a performance -->
 					<li>
 						<!-- The text of the link is the name of the cause of death -->
-						<a href="https://en.wikipedia.org/wiki/List_of_entertainers_who_died_during_a_performance">'
+						<a href="https://en.wikipedia.org/wiki/List_of_entertainers_who_died_during_a_performance">
 							List of entertainers who died during a performance
 						</a>
 						<!-- The link to Wikipedia about list of entertainers who died during a performance -->
@@ -411,6 +413,7 @@
 					<!-- This is the end of the list item -->
 				</ul>
 				<!-- This is the end of the list -->
+				</div>
 			</aside>
 			<!-- This is the end of the aside section -->
 		</div>
